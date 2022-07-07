@@ -46,7 +46,6 @@ public class MemberInsertController extends HttpServlet {
 		// PrintWriter out = response.getWriter();
 		if (cnt > 0) {
 			// 가입 성공
-			// out.println("insert success"); 
 			
 			// 다시 회원리스트 보기로 가야함. (/MVC01/memberList.do)
 			response.sendRedirect("/MVC01/memberList.do");
